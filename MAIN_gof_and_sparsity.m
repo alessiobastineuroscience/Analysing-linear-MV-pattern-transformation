@@ -12,7 +12,7 @@ dimx=100; % number of voxels in the first ROI (ROIX)
 dimy=150; % number of voxels in the second ROI (ROIY)
 dimt=90;  % number of stimuli
 levelofnoise=0.3; % weight of the noise, the one of the signal is thus (1-levelofnoise)
-levelofsparsity=75; % simulated percentage of sparsity. 0 denotes two fully 
+levelofsparsity=65; % simulated percentage of sparsity. 0 denotes two fully 
                     % connected regions while e.g. 80 denotes a transformation
                     % in which the 80% of entries are equal to 0, i.e. on average
                     % each voxel in the ROIX interact with only 20%
